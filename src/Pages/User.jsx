@@ -75,7 +75,7 @@ const User = () => {
                 </a>
               </div>
             </div>
-            <div className="w-full rounded-lg shadow-md bg-base-100 stats overflow-hidden">
+            <div className="w-full rounded-lg shadow-md bg-base-100 stats">
               {location && (
                 <div className="stat">
                   <div className="stat-title text-md">Location</div>
@@ -113,7 +113,7 @@ const User = () => {
             </div>
           </div>
         </div>
-        <div className="w-full py-5 mb-6 rounded-lg shadow-md bg-base-100 stats overflow-hidden">
+        <div className="w-full py-5 mb-6 rounded-lg shadow-md bg-base-100 stats">
           <div className="stat">
             <div className="stat-figure text-secondary">
               <FaUsers className="text-3xl md:text-5xl" />
